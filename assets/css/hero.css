@@ -1,0 +1,43 @@
+.hero{
+    background-image:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%),  url('../img/hero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    
+    height: 352px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end
+    
+    ;
+}
+.promo{
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+.promo__title{
+    color: var(--bg-primary);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.promo__p{
+    color: var(--bg-primary);
+    font-size: 1rem;
+}
+.promo__btn{
+    background-color: var(--primary);
+    border-radius: 5px;
+    color: var(--bg-primary);
+    font-family: var(--font);
+    padding: 10px 20px;
+    transition: background-color .3s ease-in;
+}
+.promo__btn:hover{
+    background-color: var(--hover);
+}
+

@@ -1,0 +1,29 @@
+:root{
+    --bg-primary: #ffffff;
+    --bg-secundary: #100c24;
+    --primary: #2A7AE4;
+    --text: #464646;
+    --font: 'Raleway', sans-serif;
+    --hover:#004db1;
+}
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fcfcfc;
+    font-family: 'Raleway', sans-serif;
+    color: var(--text);
+}
+.wrapper{
+    max-width: 71rem;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+main, footer{
+    margin-top: 3rem;
+}
+
+.oops{
+    display: none;
+}

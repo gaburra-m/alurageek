@@ -1,0 +1,60 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    place-items: center;
+    margin: 5.75rem 0;
+    max-width: 400px;
+    width: 100%;
+}
+.login__title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.login__form,
+.login__form--email,
+.login__form--pass{
+    display: flex;
+    flex-direction: column;
+}
+.login__form{
+    gap: 1rem;
+    width: 100%;
+}
+.login__form--email,
+.login__form--pass{
+    gap: .5rem;
+}
+.login__form--email input,
+.login__form--pass input{
+    padding: 10px;
+    border: 1px solid #dedfe2;
+    border-radius: 5px;
+    background-color: #f5f6f8;
+    font-family: var(--font);
+    font-size: 1rem;
+}
+.login__form--email input:focus,
+.login__form--pass input:focus{
+    outline: none;
+    border: 1px solid var(--primary);
+}
+.login__form button{
+    background-color: var(--primary);
+    border: none;
+    border-radius: 5px;
+    color: var(--bg-primary);
+    cursor: pointer;
+    padding: 15px 0;
+    transition: background-color .3s ease-in;
+    width: 100%;
+}
+.login__form button:hover{
+    background-color: var(--hover);
+}
