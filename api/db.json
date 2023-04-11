@@ -1,0 +1,18 @@
+{
+  "login": [
+    {
+      "user": "admin@alurageek.com",
+      "pass": "alurapass"
+    }
+  ],
+  "productos": [
+    {
+      "nombre": "Taza Star Wars",
+      "img": "demo.jpg",
+      "precio": "66.78",
+      "categoria": "consolas",
+      "desc": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam2",
+      "id": "8c48ea65-7954-48f6-b6a0-0fef31907cbf"
+    }
+  ]
+}

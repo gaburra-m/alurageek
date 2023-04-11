@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/styles.css">
     <link rel="stylesheet" href="../assets/css/header.css">
-    <link rel="stylesheet" href="../assets/css/administrador.css">
+    <link rel="stylesheet" href="../assets/css/agregar.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
-    <title>Administrador | AluraGeek</title>
+    <title>Actualizar | AluraGeek</title>
 </head>
 <body>
     <header>
@@ -46,11 +46,31 @@
     </header>
     <div class="wrapper">
         <main>
-            <section class="head">
-                <h2 class="head__title">Todos los productos</h2>
-                <a href="./agregar-producto.html" class="head__btn">Agregar producto</a>
-            </section>
-            <section class="productos" data-admin-products>
+            <section class="agregar">
+                <h2 class="agregar__title">Actualizar producto</h2>
+                <form data-form>
+                    <div class="input__container">
+                        <label for="img">Imagen del producto</label>  
+                        <input type="text" id="img" data-img>
+                    </div>
+                    <div class="input__container">
+                        <label for="categoria">Categoria</label>
+                        <input type="text" id="categoria" data-categoria>
+                    </div>
+                    <div class="input__container">
+                        <label for="nombreProducto">Nombre del prodcuto</label>
+                        <input type="text" id="nombreProducto" data-nombre>
+                    </div>
+                    <div class="input__container">
+                        <label for="precio">Precio del producto</label>
+                        <input type="number" step="any" id="precio" data-precio>
+                    </div>
+                    <div class="input__container">
+                        <label for="descripcion">Descripcion del producto</label>
+                        <textarea cols="30" rows="10" id="descripcion" data-desc></textarea>
+                    </div>
+                    <button class="form__btn" type="submit">Actualizar producto</button>
+                </form>
             </section>
         </main>
     </div>
@@ -94,6 +114,7 @@
         </section>
     </footer>
     <script src="../assets/js/script.js"></script>
-    <script type="module" src="../controllers/producto.controller.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="../controllers/actualizar.controller.js"></script>
 </body>
 </html>
