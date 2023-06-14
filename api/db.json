@@ -21,6 +21,14 @@
       "categoria": "consolas",
       "desc": "la descripcion del producto",
       "id": "c4e0b9cc-e9b6-4fab-8b76-40f50b86062b"
+    },
+    {
+      "nombre": "Consola_2",
+      "img": "demo.jpg",
+      "precio": "69",
+      "categoria": "consolas",
+      "desc": "la consola 2 es la mejor",
+      "id": "3daa21b6-eb7a-45ce-b653-3b5a5bb78c28"
     }
   ]
 }
